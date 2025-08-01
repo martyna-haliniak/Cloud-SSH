@@ -5,6 +5,8 @@
 
 Cloud computing refers to the delivery of computing services—such as servers, storage, databases, networking, software, and analytics—over the internet ("the cloud"). Instead of owning physical hardware, users can access scalable resources on demand, paying only for what they use. 
 
+![Cloud Computing Architecture](cloud_architecture.png)
+
 ---
 ## History of Cloud Computing
 
@@ -57,6 +59,38 @@ Worldwide market share of leading cloud infrastructure service providers in Q4 2
 ![Market Share](market_share.png)
 
 ---
+
+## Comparison of the 3 Main Cloud Providers
+
+| Provider | Known For                              | Key Strengths / USPs                                                                 |
+|----------|----------------------------------------|--------------------------------------------------------------------------------------|
+| **AWS**  | First and largest cloud platform       | Huge range of services, global infrastructure, highly scalable and reliable         |
+| **Azure**| Strong enterprise and Microsoft tie-in | Best for hybrid cloud, seamless Microsoft integration, strong security & compliance |
+| **GCP**  | AI, data, and Kubernetes leadership    | Cutting-edge AI/ML tools (Vertex AI), BigQuery analytics, deep Kubernetes support   |
+
+
+---
+## Advantages and Disadvantages of Cloud
+#### Main Advantages
+- **Scalability** – Easily grow or shrink resources as needed
+- **Cost-efficiency** – Pay only for what you use
+- **Accessibility** – Access from anywhere via the internet
+- **Speed** – Quick setup and deployment
+
+#### Main Disadvantages
+- **Downtime risk** – Reliant on internet and provider uptime
+- **Data control** – Less direct control over your data
+- **Vendor lock-in** – Can be hard to switch providers
+
+---
+
+## What you pay for in the Cloud
+- **Compute** (running servers, containers, functions)
+- **Storage** (saving files, data, databases)
+- **Networking** (data movement, load balancing)
+- **Support & Licensing** (optional extras like premium support or software licences)
+- **Specialised services** (advanced tools like AI or analytics)
+
 
 
 ## Notes
@@ -111,6 +145,10 @@ Backup if one AZ goes down
 - Capital expenditure - upfront payment, balue back over time
 - Operating Expenditure - pay for what you use (preferred by companies)
 
+
+
+#### Virtualisation
+Host OS -> virtual OS
 
 
 
