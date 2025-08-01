@@ -51,8 +51,12 @@ Cloud computing continues to evolve, driving digital transformation across the g
 
 ---
 
+## Current Market Share
+Worldwide market share of leading cloud infrastructure service providers in Q4 2024.
 
+![Market Share](market_share.png)
 
+---
 
 
 ## Notes
