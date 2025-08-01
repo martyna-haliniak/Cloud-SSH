@@ -20,6 +20,12 @@ The concept of cloud computing dates back to the 1960s, when computer scientist 
 Cloud computing continues to evolve, driving digital transformation across the globe.
 
 ---
+## Cloud Data Centres: Regions and Availability Zones
+
+Cloud providers divide their infrastructure into regions—large geographic areas—and within them, multiple availability zones (AZs). Each AZ is an isolated data centre designed for fault tolerance. If one AZ fails, others continue to operate, ensuring high availability and resilience.
+
+
+---
 ## What Are the 4 Main Cloud Deployment Models?
 
 1. **Public Cloud**  
@@ -50,6 +56,12 @@ Cloud computing continues to evolve, driving digital transformation across the g
 3. **SaaS (Software as a Service)**  
    Delivers software over the internet, accessible via a web browser. No installation needed.  
    _Example: Gmail, Dropbox, Microsoft 365_
+
+### Additional Cloud Service Type: FaaS
+
+4. **FaaS (Functions as a Service)**  
+   Runs small, event-driven functions on demand without provisioning or managing servers. Ideal for ad hoc, short-lived tasks triggered by events.  
+   _Example: AWS Lambda, Azure Functions_
 
 ---
 
@@ -93,62 +105,11 @@ Worldwide market share of leading cloud infrastructure service providers in Q4 2
 
 
 
-## Notes
-Local - on premises
-Cloud - access through internet, e.g. AWS, Azure, GCP, Gmail (as a service), dropbox (storage)
+#### Pricing Models: CapEx vs OpEx
 
+Traditional IT requires significant upfront investment (Capital Expenditure, CapEx) in hardware and infrastructure. Cloud computing uses an Operating Expenditure (OpEx) model, where you pay only for what you use, making costs more flexible and predictable.
 
-### Models
-- **Public Cloud**
-    e.g. AWS, Google Data Centre
-- **Private Cloud**
-    Own hardware instead of using data centre
-- **Hybrid Cloud**
-    Mix of public and private
-    e.g. service split into multiple pieces, part on public cloud, part on private cloud, connection between the two
-- **Multi Cloud**
-    services on multiple cloud providers in case one goes down (tends to be the reason due to regulations)
-    e.g. have connections between GCP, Azure, AWS
-
-
-### Service Types
-- **IaaS**: Infrastructure as a Service
-    Renting servers - Specify requirements, price usually per hour for running it, ..
-- **PaaS**: Platform as a Service
-    Renting an environment - Rent a server but need your own environment (set up server yourself) *wrong
-- **SaaS**: Software as a Service
-    Rent software - runs on the cloud (e.g. Microsoft 365)
-- **FaaS**: Functions as a Service
-    1 off functions (adhoc) - run it and that's it, usally event driven (event-something uploaded, deleted, updated)
-
-
-### Data Centre (DC)
-Multiple in different places, they're connected and gouped, e.g. Europe
-
-London - One data centre, multiple locations in different regions (Availability Zones) that make up the data centre
-Backup if one AZ goes down
-
-### Cloud Advantages and Disadvantages
-
-**Advantages**
-- Accessible from anywhere
-- Scalability (vertical and horizontal)
-- Price
-- Physical security
-
-**Disadvantages**
-- Less control (trust)
-- Needs managing (planning, ensuring company doesn't pay for cloud that's not being used for example)
-
-
-#### Pricing: CapEx vs OpEX
-- Capital expenditure - upfront payment, balue back over time
-- Operating Expenditure - pay for what you use (preferred by companies)
-
-
-
-#### Virtualisation
-Host OS -> virtual OS
+---
 
 
 
