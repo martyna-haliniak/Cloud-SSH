@@ -27,7 +27,7 @@ Linux is based on a **monolithic kernel**, meaning the core of the OS handles mo
 
 ---
 
-## 🌐 Why Is Linux Popular (Especially for Production Servers)?
+## Why Is Linux Popular (Especially for Production Servers)?
 
 ### Key Reasons:
 
@@ -471,3 +471,27 @@ chmod a+x script.sh
 ```
 
 ---
+
+
+## MongoDB instance
+#### Step 1:
+Launch a new instance with new settings:
+
+ Allow inbound **SSH** and **custom TCP port 27017** (MongoDB default port)
+
+
+ Then in gitbash:
+ ```bash
+ ssh -i "data504-martyna-keypair.pem" ubuntu@3.120.183.191
+```
+
+using .pem file from .ssh folder and IP address from instance summary page. 
+
+#### Step 2:
+Update and install MongoDB:
+```bash
+sudo apt update -y
+sudo apt upgrade -y
+```
+
+
