@@ -148,8 +148,9 @@ df = df[['Col2', 'Col1', 'Col3']]  # reorder columns
 df_filtered = df[df['ValueColumn'] > 100]
 df_filtered = df[df['Category'] == 'Bream']
 ``` 
+---
 
-#### 7. Exporting Transformed Data
+## Exporting Transformed Data
 After transforming your data, write it back to a CSV format to upload to S3:
 
 ``` python
